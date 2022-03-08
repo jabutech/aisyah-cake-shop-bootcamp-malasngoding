@@ -14,22 +14,22 @@ export default function Content() {
           <h1 className="font-semibold mb-2">Categories</h1>
           <CategoryList
             categoryName="Bolu"
-            categoryLink="#"
+            categoryLink="/#"
             categoryTotal="320"
           />
           <CategoryList
             categoryName="Mie"
-            categoryLink="#"
+            categoryLink="/#"
             categoryTotal="112"
           />
           <CategoryList
             categoryName="Pizza"
-            categoryLink="#"
+            categoryLink="/#"
             categoryTotal="32"
           />
           <CategoryList
             categoryName="Dessert"
-            categoryLink="#"
+            categoryLink="/#"
             categoryTotal="48"
           />
         </div>
@@ -164,7 +164,7 @@ export default function Content() {
         {/* Button more products */}
         <div className="w-full h-1/4 flex justify-center items-center">
           <a
-            href="#"
+            href="/#"
             className="flex bg-green-600 hover:bg-green-500 outline outline-green-700 hover:outline hover:outline-gren-600 rounded-lg py-2 px-4 text-white text-lg font-bold mr-10 transition-colors duration-150"
           >
             Show more products
