@@ -1,0 +1,66 @@
+[
+  {
+    "image": "menu-1",
+    "menuName": "Bolu Susun",
+    "menuDetail": "Disusun dengan penuh kenangan",
+    "menuPrice": "36.000",
+    "menuDiskon": "40.000",
+    "percentDiskon": "36"
+  },
+  {
+    "image": "menu-2",
+    "menuName": "Mie Aceh",
+    "menuDetail": "Rasanya mantap kali",
+    "menuPrice": "26.000",
+    "menuDiskon": "30.000",
+    "percentDiskon": "26"
+  },
+  {
+    "image": "menu-3",
+    "menuName": "Bolu Lapis",
+    "menuDetail": "Enaknya berlapis lapis",
+    "menuPrice": "42.000",
+    "menuDiskon": "",
+    "percentDiskon": ""
+  },
+  {
+    "image": "menu-4",
+    "menuName": "Donat",
+    "menuDetail": "Cerez berwarna warni",
+    "menuPrice": "15.000",
+    "menuDiskon": "",
+    "percentDiskon": ""
+  },
+  {
+    "image": "menu-5",
+    "menuName": "Pizza Hut",
+    "menuDetail": "Toping yang beraneka rasa",
+    "menuPrice": "30.000",
+    "menuDiskon": "15.000",
+    "percentDiskon": "50"
+  },
+  {
+    "image": "menu-6",
+    "menuName": "Mata Sapi",
+    "menuDetail": "Awas dimata - matai",
+    "menuPrice": "12.000",
+    "menuDiskon": "",
+    "percentDiskon": ""
+  },
+  {
+    "image": "menu-1",
+    "menuName": "Bolu Susun Spesial",
+    "menuDetail": "Disusun 2 kali dengan penuh Cinta",
+    "menuPrice": "72.000",
+    "menuDiskon": "40.000",
+    "percentDiskon": "32"
+  },
+  {
+    "image": "menu-4",
+    "menuName": "Donat 3 Rasa",
+    "menuDetail": "Rasa yang berbeda disetiap gigitan",
+    "menuPrice": "36.000",
+    "menuDiskon": "",
+    "percentDiskon": ""
+  }
+]

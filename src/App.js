@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Content from "./Components/Content";
+import Footer from "./Components/Footer";
+import MenuList from "./Components/MenuList";
+import SiteHeader from "./Components/SiteHeader";
+import SiteInfo from "./Components/SiteInfo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mx-auto">
+      {/* Site Header */}
+      <SiteHeader />
+      {/* Site Info */}
+      <SiteInfo />
+      {/* Menu */}
+      <div className="bg-gray-100 py-4 mb-14">
+        <ul className="flex">
+          <MenuList menuName="Bakery" link="#" />
+          <MenuList menuName="Fruit and vegetables" link="#" />
+          <MenuList menuName="Meat and Fish" link="#" />
+          <MenuList menuName="Drinks" link="#" />
+          <MenuList menuName="Kitchen" link="#" />
+          <MenuList menuName="Special nutrition" link="#" />
+          <MenuList menuName="Baby" link="#" />
+          <MenuList menuName="Pharmacy" link="#" />
+        </ul>
+      </div>
+      {/* Content */}
+      <Content />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
